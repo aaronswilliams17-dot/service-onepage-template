@@ -23,6 +23,15 @@ body{
   color:var(--text);
   line-height:1.55;
 }
+.demo-banner{
+  background: linear-gradient(90deg, #7c2d12, #b45309);
+  color: #fff7ed;
+  font-weight: 800;
+  text-align: center;
+  padding: 8px 12px;
+  font-size: 0.85rem;
+  letter-spacing: .4px;
+}
 
 a{color:inherit}
 .container{
@@ -361,4 +370,5 @@ h2{font-size:1.7rem; margin:0 0 8px}
   .site-nav a.btn{justify-content:center}
   .site-nav[data-open="true"]{display:flex}
 }
+
 
