@@ -144,6 +144,21 @@ a{color:inherit}
   font-size:.85rem;
   margin:0 0 10px;
 }
+.service-area{
+  margin: 0 0 12px;
+  color: rgba(199,210,254,.95);
+  font-weight: 700;
+  background: rgba(255,255,255,.06);
+  border: 1px solid var(--border);
+  display: inline-block;
+  padding: 8px 10px;
+  border-radius: 999px;
+}
+.service-area-city{
+  color: rgba(245,158,11,.95);
+  font-weight: 800;
+}
+
 h1{
   font-size: clamp(2rem, 3.3vw, 3rem);
   line-height:1.1;
@@ -346,3 +361,4 @@ h2{font-size:1.7rem; margin:0 0 8px}
   .site-nav a.btn{justify-content:center}
   .site-nav[data-open="true"]{display:flex}
 }
+
